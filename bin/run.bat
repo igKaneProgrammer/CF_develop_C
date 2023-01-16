@@ -1,1 +1,0 @@
-..\lithtech -rez ..\engine.rez -rez
