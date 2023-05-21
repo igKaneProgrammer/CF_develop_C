@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2023-05-21T12:04:40.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.2" etag="ZtQXHXNWCf2PG1bgZ4pw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-21T12:11:55.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pBm59FaPrINcVhwztgaq" version="21.3.2" type="github">
   <diagram name="Страница 1" id="5Sp_Ik37Nrq8xzuTOVOk">
-    <mxGraphModel>
+    <mxGraphModel dx="1154" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-1" target="xZcLyu4wYaGjDeCzMo7G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-2" target="xZcLyu4wYaGjDeCzMo7G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-2" value="Нажимает горячие&lt;br&gt;клавиши CTRL+H" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-4" target="xZcLyu4wYaGjDeCzMo7G-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-4" value="Говорит в микрофон" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="304" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-7" target="xZcLyu4wYaGjDeCzMo7G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-7" target="xZcLyu4wYaGjDeCzMo7G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-7" value="Запрос к&amp;nbsp;&lt;br&gt;ChatGPT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-8" target="xZcLyu4wYaGjDeCzMo7G-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-8" value="Выполнение&amp;nbsp;&lt;br&gt;действий" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-11" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;нет&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;да&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-26" target="xZcLyu4wYaGjDeCzMo7G-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-14" value="Отправка запроса ChatGPT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-17" value="Синтез речью &lt;br&gt;ответа" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-19" target="xZcLyu4wYaGjDeCzMo7G-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-19" value="Выполнения действия" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xZcLyu4wYaGjDeCzMo7G-14" target="xZcLyu4wYaGjDeCzMo7G-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xZcLyu4wYaGjDeCzMo7G-26" value="Получение ответа от ChatGPT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
